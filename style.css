@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+canvas {
+  display: block;
+}
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  z-index: 10;
+  text-shadow: 0 0 10px #000;
+}
+
+body {
+  background: url('images/background\ time.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.era-buttons {
+  margin-top: 10px;
+}
+button {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #00ffff;
+  border: none;
+  border-radius: 8px;
+}

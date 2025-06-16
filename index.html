@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Time Traveler's Museum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="museum-canvas"></canvas>
+  <div class="overlay">
+    <h1>🌀 Time Traveler's Museum</h1>
+    <p>Click the portal to explore time eras</p>
+    <audio id="bg-music" src="images/senorita_iphone.mp3" autoplay loop></audio>
+    
+    <button onclick="toggleMusic()">🔈 Toggle Music</button>
+    <div class="era-buttons">
+      <button onclick="goToEra('egypt')">🏺 Ancient Egypt</button>
+      <button onclick="goToEra('future')">🏙️ Future City</button>
+    </div>
+  </div>
+  
+  <script type="module" src="script.js"></script>
+</body>
+</html>
+
